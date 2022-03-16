@@ -1,5 +1,11 @@
 valid = False
 while not valid:
 
- print("This is a loop")
- keep_going = input("Again? ")
+    response = float(input("Enter a number: "))
+    
+    if response > 0:
+        valid = True
+
+    else:
+        print("Please enter a number that is more than zero.")
+        print()
