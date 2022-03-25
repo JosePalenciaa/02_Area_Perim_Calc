@@ -28,7 +28,7 @@ def num_check(question):
 
 # Main routine goes here
 width = num_check("Width: ")
-height = numcheck("Height: ")
+height = num_check("Height: ")
 print()
 print("Width", width)
 print("Height", height)
