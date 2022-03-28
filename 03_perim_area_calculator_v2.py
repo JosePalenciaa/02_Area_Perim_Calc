@@ -5,7 +5,7 @@ def num_check(question):
     valid = False
     while not valid:
 
-        error = "Please enter a number that is more than zero2."
+        error = "Please enter a number that is more than zero."
 
         try:
 
@@ -48,7 +48,9 @@ while keep_going == "":
     print("Perimeter: {:.2f} units.". format(perimeter))
     print("Area: {:.2f} units.". format(area))
     print()
-    keep_going = input("Press <enter> to keep going or any key to quit.")
-    
+    keep_going = input("Press <enter> to keep going or any key to quit")
+    print()
+
 print()
 print("Thanks for using the Area / Perimeter calculator.")
+print()
