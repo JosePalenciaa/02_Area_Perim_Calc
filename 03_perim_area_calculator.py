@@ -29,7 +29,13 @@ def num_check(question):
 # Main routine goes here
 width = num_check("Width: ")
 height = num_check("Height: ")
-print()
-print("Width", width)
-print("Height", height)
-print()
+
+# Calculate area (Width * Height)
+area = width * height
+
+# Calculate perimeter (Width + Height) x 2
+perimeter = 2 * (width + height)
+
+# Outputs area and perimeter
+print("Perimeter: {} units.". format(perimeter))
+print("Area: {} units.". format(area))
